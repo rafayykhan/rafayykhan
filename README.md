@@ -384,7 +384,7 @@ BSSE'24 · Currently in Semester 4
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
+<a href="https://www.linkedin.com/in/muhammad-abdul-rafay-khan-/">
   <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Abdul_Rafay_Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="mailto:rafaykhan99999@gmail.com">
