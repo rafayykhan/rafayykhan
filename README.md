@@ -1,4 +1,3 @@
-````md
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=260&section=header&text=Muhammad%20Abdul%20Rafay%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Full-Stack%20Developer%20%7C%20Backend%20%26%20AI%20Explorer&descAlignY=55&descSize=17" width="100%" />
@@ -67,14 +66,14 @@ Currently, I am focused on **backend systems, full-stack development, database a
 <td width="50%">
 
 ### 🏗️ Building
-**PathFinder**  
+**PathFinder**
 An AI-powered university admissions and career counseling platform for Pakistani students.
 
 </td>
 <td width="50%">
 
 ### ✍️ Maintaining
-**Bloggio**  
+**Bloggio**
 A full-stack blogging platform with authentication, APIs, and real-time features.
 
 </td>
@@ -262,7 +261,7 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="49%" />
 
 <br/><br/>
 
@@ -281,7 +280,7 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 
 ### Information Technology University, Lahore
 
-**Bachelor of Science in Software Engineering**  
+**Bachelor of Science in Software Engineering**
 BSSE'24 · Currently in Semester 4
 
 **Relevant Coursework**
@@ -341,4 +340,3 @@ BSSE'24 · Currently in Semester 4
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,45:1F6FEB,100:0D1117&height=120&section=footer" width="100%" />
 
 </div>
-````
