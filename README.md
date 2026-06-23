@@ -157,7 +157,8 @@ Single-page skincare platform UI inspired by leading skincare e-commerce sites, 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=pie&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%"/>
 
 <br/><br/>
 
@@ -165,11 +166,9 @@ Single-page skincare platform UI inspired by leading skincare e-commerce sites, 
 
 <br/><br/>
 
+### Contribution Graph
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true" width="100%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="60%"/>
 
 <br/><br/>
 
