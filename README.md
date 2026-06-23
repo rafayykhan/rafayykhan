@@ -2,14 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,50:1F6FEB,100:39D0D8&height=260&section=header&text=Muhammad%20Abdul%20Rafay%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Full-Stack%20Developer%20%7C%20Backend%20and%20AI%20Explorer&descAlignY=55&descSize=17" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=850&lines=Building+full-stack+products+with+clean+architecture;Backend+%E2%80%A2+Databases+%E2%80%A2+APIs+%E2%80%A2+System+Design;Exploring+AI-powered+software+systems;Batch+2024+%40+ITU+Lahore" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=850&lines=Building+full-stack+products+with+clean+architecture;Backend+%E2%80%A2+Databases+%E2%80%A2+APIs+%E2%80%A2+System+Design;Currently%3A+Backend+AI+Engineer+Intern+%40+FlyRank+AI;Batch+2024+%40+ITU+Lahore" alt="Typing SVG" />
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/muhammad-abdul-rafay-khan-/">
+<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="mailto:YOUR_EMAIL_HERE">
+<a href="mailto:rafaykhan99999@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/rafayykhan?tab=repositories">
@@ -34,14 +34,16 @@ class Rafay:
             "Full-Stack Development",
             "Database Systems",
             "System Design",
-            "Applied AI"
+            "Applied AI",
+            "Cloud & DevOps"
         ]
 
     def current_focus(self):
         return [
-            "Building production-style full-stack apps",
-            "Learning operating systems and database internals",
-            "Exploring AI-powered software products"
+            "Backend AI Engineer Intern @ FlyRank AI",
+            "Data Engineering Intern @ Zee Outsourcing Solutions",
+            "FullStack AI Engineering Fellow @ Dev Weekends",
+            "Deepening knowledge of operating systems, database internals, and cloud/DevOps"
         ]
 
     def say_hi(self):
@@ -55,7 +57,7 @@ I am a Software Engineering student at **Information Technology University, Laho
 
 I enjoy working on the complete development cycle: designing database schemas, building backend APIs, creating clean frontend interfaces, and improving architecture so projects can grow beyond coursework.
 
-Currently, I am focused on **backend systems, full-stack development, database architecture, operating systems, and AI-powered applications**.
+Currently, I am focused on **backend systems, full-stack development, database architecture, operating systems, and AI-powered applications** — and actively applying these skills across three concurrent internships/fellowships.
 
 ---
 
@@ -88,7 +90,53 @@ Operating Systems, Database Architecture, Software Design, and System Design.
 <td width="50%">
 
 ### 🤝 Open To
-Backend internships, full-stack internships, collaborations, and open-source work.
+Backend/AI internships and full-time roles, collaborations, and open-source work.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🤖 Backend AI Engineer Intern — FlyRank AI
+📍 Chicago, IL (Remote) &nbsp;·&nbsp; 🗓️ June 2026 – Present
+<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
+
+Working on scalable backend solutions and AI-integrated applications as part of the FlyRank AI Backend Engineering Internship Program, with a focus on backend architecture, system design, and distributed systems.
+
+`Python` `Backend Architecture` `AI Integration` `System Design` `Distributed Systems`
+
+</td>
+</tr>
+<tr>
+<td width="100%" valign="top">
+
+### 🗄️ Data Engineering Intern — Zee Outsourcing Solutions Pvt Ltd
+📍 London, UK &nbsp;·&nbsp; 🗓️ June 2026 – Present
+<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
+
+Working alongside industry professionals on technology-driven solutions, strengthening practical skills in Python, SQL, and data engineering workflows, and learning professional project and teamwork practices.
+
+`Python` `SQL` `Data Engineering` `Cloud Technologies`
+
+</td>
+</tr>
+<tr>
+<td width="100%" valign="top">
+
+### 🧩 FullStack AI Engineering Fellow — Dev Weekends
+📍 Lahore, Pakistan &nbsp;·&nbsp; 🗓️ June 2026 – Present
+<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
+
+Pursuing a fellowship covering full-stack development — JavaScript, React.js, Node.js, databases, data structures, system design, and AI — through guided coursework and hands-on exercises.
+
+`JavaScript` `React.js` `Node.js` `Data Structures` `System Design` `AI`
 
 </td>
 </tr>
@@ -100,7 +148,7 @@ Backend internships, full-stack internships, collaborations, and open-source wor
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,c,html,css,react,vite,tailwind,nodejs,express,fastapi,postgres,git,github,docker,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,js,c,html,css,react,vite,tailwind,nodejs,express,fastapi,django,postgres,git,github,docker,aws,azure,linux&theme=dark" />
 
 </div>
 
@@ -117,11 +165,15 @@ Backend internships, full-stack internships, collaborations, and open-source wor
 </tr>
 <tr>
 <td><b>Backend</b></td>
-<td>Node.js · Express.js · FastAPI · REST APIs · Socket.IO</td>
+<td>Node.js · Express.js · FastAPI · Django · REST APIs · Socket.IO</td>
 </tr>
 <tr>
 <td><b>Databases</b></td>
 <td>PostgreSQL · Schema Design · Normalization · Query Design</td>
+</tr>
+<tr>
+<td><b>Cloud & DevOps</b></td>
+<td>AWS · Azure DevOps Services · Docker · CI/CD Fundamentals</td>
 </tr>
 <tr>
 <td><b>Tools</b></td>
@@ -129,7 +181,7 @@ Backend internships, full-stack internships, collaborations, and open-source wor
 </tr>
 <tr>
 <td><b>Core CS</b></td>
-<td>Operating Systems · DBMS · Computer Architecture · RISC-V · Software Design Patterns</td>
+<td>Operating Systems · DBMS · Computer Architecture · RISC-V · Software Design Patterns · Software Quality Assurance</td>
 </tr>
 </table>
 
@@ -289,6 +341,18 @@ BSSE'24 · Currently in Semester 4
 
 ---
 
+## 📜 Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Programming_for_Everybody-Getting_Started_with_Python-3776AB?style=for-the-badge&logo=coursera&logoColor=white" />
+<img src="https://img.shields.io/badge/Python_Data_Structures-3776AB?style=for-the-badge&logo=coursera&logoColor=white" />
+<img src="https://img.shields.io/badge/What_is_Data_Science%3F-1F6FEB?style=for-the-badge&logo=coursera&logoColor=white" />
+
+</div>
+
+---
+
 ## 🌱 Currently Exploring
 
 <div align="center">
@@ -298,6 +362,7 @@ BSSE'24 · Currently in Semester 4
 <img src="https://img.shields.io/badge/LLM_Integration-0D1117?style=for-the-badge&logo=openai&logoColor=58A6FF" />
 <img src="https://img.shields.io/badge/Open_Source-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" />
 <img src="https://img.shields.io/badge/CQRS_%26_Event_Sourcing-0D1117?style=for-the-badge&logo=apachekafka&logoColor=58A6FF" />
+<img src="https://img.shields.io/badge/Cloud_%26_DevOps-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=58A6FF" />
 
 </div>
 
@@ -319,10 +384,10 @@ BSSE'24 · Currently in Semester 4
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/muhammad-abdul-rafay-khan-/">
+<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
   <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Abdul_Rafay_Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="mailto:YOUR_EMAIL_HERE">
+<a href="mailto:rafaykhan99999@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/rafayykhan">
