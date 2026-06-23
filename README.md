@@ -322,7 +322,7 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="95%" />
+<img src="https://github-trophies.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="95%" />
 
 </div>
 
@@ -337,7 +337,7 @@ BSSE'24 · Currently in Semester 4
 
 **Relevant Coursework**
 
-`Operating Systems` · `Database Management Systems` · `Software Design & Architecture` · `Computer Organization & Assembly Language` · `RISC-V` · `Statistics` . `Programming` 
+`Operating Systems` · `Database Management Systems` · `Software Design & Architecture` · `Computer Organization & Assembly Language` · `RISC-V` · `Statistics`
 
 ---
 
@@ -384,7 +384,7 @@ BSSE'24 · Currently in Semester 4
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/muhammad-abdul-rafay-khan-/">
+<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
   <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Abdul_Rafay_Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="mailto:rafaykhan99999@gmail.com">
