@@ -337,7 +337,7 @@ BSSE'24 · Currently in Semester 4
 
 **Relevant Coursework**
 
-`Operating Systems` · `Database Management Systems` · `Software Design & Architecture` · `Computer Organization & Assembly Language` · `RISC-V` · `Statistics`
+`Operating Systems` · `Database Management Systems` · `Software Design & Architecture` · `Computer Organization & Assembly Language` · `RISC-V` · `Statistics` . `Programming` 
 
 ---
 
