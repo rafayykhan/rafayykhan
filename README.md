@@ -1,98 +1,138 @@
 <!--
-    Hey there, I'm Daria Stanilevici!
-    Happy to see you here exploring my README code
-    Feel free to inspire!
-    
-    But may I please ask you to follow me in return? Just a click!
-    You may also want to connect with me on LinkedIn @daria-stanilevici :))
+    Rafay Khan — GitHub Profile README
 -->
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:1A2980&height=160&section=header" alt="header"/>
+
+<div align="center">
 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=435&lines=Hello%2C+it's+Daria+Stanilevici;Business+Analyst" alt="Business Analyst"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=900&color=26D0CE&width=600&center=true&vCenter=true&lines=Hey%2C+it's+Rafay+Khan;Software+Engineering+Student+%40+ITU+Lahore;Backend+%26+Full-Stack+Developer;Currently+exploring+Artificial+Intelligence" alt="Typing SVG"/>
 </a>
 
-<!--
-    Your own Terminal GIF can be created here -> https://www.terminalgif.com
--->
-
-<div>
-    <img src="./assets/about_daria.gif" alt="About Me Terminal GIF"/>
 </div>
 
-<!--
-     My mission, because I'm a superhero!
--->
-<!--
-     This is the list of my skills and tools I am studying!
--->
-### Main skills
-[![My Skills](https://skillicons.dev/icons?i=py,regex,github,git,mongodb,mysql,eclipse,java,spring,js,nodejs,react,express,jest,jenkins,cpp,cs,dotnet,html,css,bootstrap,pug,php,androidstudio,blender,ps,notion)](https://skillicons.dev)
+<br/>
 
-### Studying
-[![Learning](https://skillicons.dev/icons?i=aws,azure,ruby)](https://skillicons.dev)
+### 👋 About Me
 
-<!--
-     I also have my own blog with useful information, check it out ^^
--->
+I'm a Software Engineering student at **Information Technology University (ITU), Lahore** (BSSE'24), focused on building full-stack systems end-to-end — from database schema to API to UI. I'm especially drawn to what happens under the hood: operating systems, database internals, and software architecture.
 
-### Publications
-<div> 
-  <a href="https://medium.com/@daria-stanilevici">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank" alt="Medium">
-  </a>
-  <a href="https://dev.to/daria-stanilevici">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" target="_blank" alt="Dev.to">
-  </a>
+- 🏗️ Building **PathFinder** — an AI-powered university admissions & career counseling platform
+- ✍️ Maintaining **Bloggio** — a full-stack blogging platform with real-time updates
+- 🧩 Working through OS internals (xv6, RISC-V, paging) and software design patterns
+- 🤝 Open to backend / full-stack internships and open-source collaboration
+
+<br/>
+
+### 🧰 Main Skills
+[![My Skills](https://skillicons.dev/icons?i=python,js,c,html,css,react,vite,tailwind,nodejs,express,fastapi,postgres,mysql,git,github,docker,linux&theme=dark)](https://skillicons.dev)
+
+### 📚 Currently Studying
+[![Learning](https://skillicons.dev/icons?i=cs,vscode&theme=dark)](https://skillicons.dev)
+&nbsp; Operating Systems · Database Architecture · Software Design Patterns · Computer Organization (RISC-V)
+
+<br/>
+
+### 🚀 Featured Projects
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+**🧭 PathFinder**
+AI-powered university admissions & career counseling platform for Pakistani students.
+`FastAPI` `PostgreSQL` `AI/ML`
+
+</td>
+<td width="50%" valign="top">
+
+**📝 Bloggio**
+Full-stack blogging platform — Node/Express/PostgreSQL backend, React + Socket.IO frontend.
+`Node.js` `React` `PostgreSQL` `Socket.IO`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🧩 xv6 Page Tables**
+RISC-V xv6 OS assignment implementing multi-level page table mechanics.
+`C` `RISC-V` `Operating Systems`
+
+</td>
+<td width="50%" valign="top">
+
+**💊 Medicare**
+Single-page skincare platform UI with precise, responsive layout.
+`HTML` `CSS` `JavaScript`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[**📂 View all repositories →**](https://github.com/rafayykhan?tab=repositories)
+
 </div>
 
-You can find my publications on Medium and Dev.to, where I share career insights, tips, and my knowledge and experience in tech.
-I also delve into personal thoughts and research on AI, quantum computing and other interesting topics.
+<br/>
 
-<!--
-Check out my latest post 👇  
+### 📊 GitHub Stats
 
-<a href="https://medium.com/@daria-stanilevici" target="_blank">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@daria-stanilevici/0" alt="Latest Medium Article" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=26D0CE&icon_color=26D0CE&text_color=C9D1D9&include_all_commits=true&count_private=true"/>
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=26D0CE&ring=26D0CE&fire=26D0CE&currStreakLabel=26D0CE"/>
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=26D0CE&line=26D0CE&point=ffffff&area=true"/>
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=26D0CE&text_color=C9D1D9"/>
+
+<br/><br/>
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10"/>
+
+<br/>
+
+### ✍️ Writing & Notes
+
+I occasionally write technical notes and breakdowns as I work through coursework and projects — OS internals, database design, and software architecture patterns.
+
+<div align="center">
+<a href="https://github.com/rafayykhan?tab=repositories">
+  <img src="https://img.shields.io/badge/GitHub_Notes-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Notes">
+</a>
+</div>
+
+<br/>
+
+### 📫 Connect with me!
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/muhammad-abdul-rafay-khan-/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:[email protected]">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://github.com/rafayykhan">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
-
-[![My latest Medium post](https://miro.medium.com/v2/resize:fit:1200/format:webp/INSERT-YOUR-COVER-IMAGE-ID-HERE)](https://medium.com/@daria-stanilevici/your-article-slug)
-
-
-     Fast links to my socials!
--->
-
-### Connect with me!
-<div>
-    <a href="https://www.linkedin.com/in/daria-stanilevici/">
-        <img src="https://github.com/user-attachments/assets/880aaea6-79b9-4058-b9b4-342391ca04ea" alt="LinkedIn" width="35" height="35"/>
-    </a>
-    <a href="https://dev.to/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/172bc424-569a-4522-a787-97f4cd5a685d" alt="Dev.to" width="37" height="37"/>
-    </a>
-    <a href="https://www.credly.com/users/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/6cc0dbde-bca6-43e8-a460-aa67fb449c80" alt="Credly" width="35" height="35"/>
-    </a>
-    <a href="https://www.artstation.com/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/1206188f-4274-4240-93e6-0dfc1919f9f0" alt="Art Station" width="33" height="33"/>
-    </a>
-    <a href="https://medium.com/@daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/33da1818-a750-4e4b-a09a-9c8b1c4e9338" alt="Medium" width="35" height="35"/>
-    </a>
 </div>
 
-<!--
-     Oh, hello there, recruiters!
--->
+<br/>
 
-### Employer?
-> [!IMPORTANT]  
-> <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=rafayykhan&style=for-the-badge&color=26D0CE&label=PROFILE+VIEWS"/>
+</div>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer"/>
-
-<!--
-     Thanks for being my guest <3
--->
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:1A2980&height=120&section=footer" alt="footer"/>
