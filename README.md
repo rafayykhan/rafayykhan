@@ -308,19 +308,34 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Analytics
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="49%" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="41%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9" width="56%" />
+<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="80%" />
 
-<br/><br/>
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9" width="95%" />
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
 
 <img src="https://github-trophies.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="95%" />
 
