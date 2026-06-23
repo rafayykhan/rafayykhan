@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,50:1F6FEB,100:39D0D8&height=260&section=header&text=Muhammad%20Abdul%20Rafay%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Full-Stack%20Developer%20%7C%20Backend%20%26%20AI%20Explorer&descAlignY=55&descSize=17" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,50:1F6FEB,100:39D0D8&height=260&section=header&text=Muhammad%20Abdul%20Rafay%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Full-Stack%20Developer%20%7C%20Backend%20and%20AI%20Explorer&descAlignY=55&descSize=17" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=850&lines=Building+full-stack+products+with+clean+architecture;Backend+%E2%80%A2+Databases+%E2%80%A2+APIs+%E2%80%A2+System+Design;Exploring+AI-powered+software+systems;Batch+2024+%40+ITU+Lahore" alt="Typing SVG" />
 
