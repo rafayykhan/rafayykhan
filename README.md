@@ -157,22 +157,17 @@ Single-page skincare platform UI inspired by leading skincare e-commerce sites, 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true&count_private=true" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=pie&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF" width="36%"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="45%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9" width="50%"/>
 
 <br/><br/>
 
-### Contribution Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true" width="100%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="95%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="92%"/>
 
 </div>
 
