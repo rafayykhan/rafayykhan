@@ -317,7 +317,7 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="80%" />
+<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&dates=8B949E&card_width=800" width="80%" />
 
 </div>
 
@@ -337,7 +337,7 @@ A responsive skincare platform UI inspired by modern e-commerce layouts, focused
 
 <div align="center">
 
-<img src="https://github-trophies.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="95%" />
+<img src="https://github-trophies.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=12" width="95%" />
 
 </div>
 
