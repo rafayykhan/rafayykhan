@@ -1,422 +1,112 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,50:1F6FEB,100:39D0D8&height=260&section=header&text=Muhammad%20Abdul%20Rafay%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Full-Stack%20Developer%20%7C%20Backend%20and%20AI%20Explorer&descAlignY=55&descSize=17" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=850&lines=Building+full-stack+products+with+clean+architecture;Backend+%E2%80%A2+Databases+%E2%80%A2+APIs+%E2%80%A2+System+Design;Currently%3A+Backend+AI+Engineer+Intern+%40+FlyRank+AI;Batch+2024+%40+ITU+Lahore" alt="Typing SVG" />
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<a href="https://muhammadabdulrafay-sage.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="hey, i'm rafay. a full stack developer and AI engineer from lahore, pakistan. open to freelance work." src="assets/header-light.svg" width="100%">
+  </picture>
 </a>
-<a href="mailto:rafaykhan99999@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/rafayykhan?tab=repositories">
-  <img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=rafayykhan&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" />
 
-</div>
+<br>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
+  <img alt="about" src="assets/h-about-light.svg" width="100%">
+</picture>
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> About Me
+I'm a software engineering student at **ITU Lahore** who builds web apps **end to end**: the interface, the API, the database, and lately the **AI agents** behind them. I freelance for small businesses (ordering sites, booking flows and AI chat), and I stay on after launch to keep them running.
 
-```python
-class Rafay:
-    def __init__(self):
-        self.name = "Muhammad Abdul Rafay Khan"
-        self.role = "Software Engineering Student @ ITU Lahore"
-        self.location = "Lahore, Pakistan"
-        self.interests = [
-            "Backend Engineering",
-            "Full-Stack Development",
-            "Database Systems",
-            "System Design",
-            "Applied AI",
-            "Cloud & DevOps"
-        ]
+If you have a problem a good web app could solve, [say hi](mailto:rafaykhan99999@gmail.com).
 
-    def current_focus(self):
-        return [
-            "Backend AI Engineer Intern @ FlyRank AI",
-            "Data Engineering Intern @ Zee Outsourcing Solutions",
-            "FullStack AI Engineering Fellow @ Dev Weekends",
-            "Deepening knowledge of operating systems, database internals, and cloud/DevOps"
-        ]
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-now-dark.svg">
+  <img alt="what i'm doing" src="assets/h-now-light.svg" width="100%">
+</picture>
 
-    def say_hi(self):
-        print("Thanks for visiting my profile. Let's build something useful.")
+| | Role | When |
+|---|---|---|
+| **[Afrium](https://www.afrium.agency)** | AI Native Developer (part-time, remote). Building a multi-agent system that follows Pakistani news sources, merges duplicate stories, flags media bias and writes a daily report. | Aug&nbsp;2026&nbsp;–&#8288;&nbsp;now |
+| **[Upwork](https://www.upwork.com/freelancers/~01fd358d4c55230178)** | Freelance full stack developer | Nov&nbsp;2026&nbsp;–&#8288;&nbsp;now |
+| **[Dev Weekends](https://www.devweekends.com)** | FullStack AI Engineering Fellow | Jun&nbsp;2026&nbsp;–&#8288;&nbsp;now |
+| **[FlyRank AI](https://internship.flyrank.ai)** | Backend AI Engineer Intern | Jul&nbsp;–&#8288;&nbsp;Sep&nbsp;2026 |
+| **Zee Outsourcing Solutions** | Data Engineering Intern | Jun&nbsp;–&#8288;&nbsp;Aug&nbsp;2026 |
+| **[ITU Lahore](https://itu.edu.pk)** | BS Software Engineering | 2024&nbsp;–&#8288;&nbsp;2028 |
 
-me = Rafay()
-me.say_hi()
-```
-
-I am a Software Engineering student at **Information Technology University, Lahore**, passionate about building real-world software products from idea to deployment.
-
-I enjoy working on the complete development cycle: designing database schemas, building backend APIs, creating clean frontend interfaces, and improving architecture so projects can grow beyond coursework.
-
-Currently, I am focused on **backend systems, full-stack development, database architecture, operating systems, and AI-powered applications** — and actively applying these skills across three concurrent internships/fellowships.
-
----
-
-## 🚀 Current Highlights
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏗️ Building
-**PathFinder**
-An AI-powered university admissions and career counseling platform for Pakistani students.
-
-</td>
-<td width="50%">
-
-### ✍️ Maintaining
-**Bloggio**
-A full-stack blogging platform with authentication, APIs, and real-time features.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🧠 Learning
-Operating Systems, Database Architecture, Software Design, and System Design.
-
-</td>
-<td width="50%">
-
-### 🤝 Open To
-Backend/AI internships and full-time roles, collaborations, and open-source work.
-
-</td>
-</tr>
-</table>
-
----
-
-## 💼 Experience
-
-<table>
-<tr>
-<td width="100%" valign="top">
-
-### 🤖 Backend AI Engineer Intern — FlyRank AI
-📍 Chicago, IL (Remote) &nbsp;·&nbsp; 🗓️ June 2026 – Present
-<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
-
-Working on scalable backend solutions and AI-integrated applications as part of the FlyRank AI Backend Engineering Internship Program, with a focus on backend architecture, system design, and distributed systems.
-
-`Python` `Backend Architecture` `AI Integration` `System Design` `Distributed Systems`
-
-</td>
-</tr>
-<tr>
-<td width="100%" valign="top">
-
-### 🗄️ Data Engineering Intern — Zee Outsourcing Solutions Pvt Ltd
-📍 London, UK &nbsp;·&nbsp; 🗓️ June 2026 – Present
-<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
-
-Working alongside industry professionals on technology-driven solutions, strengthening practical skills in Python, SQL, and data engineering workflows, and learning professional project and teamwork practices.
-
-`Python` `SQL` `Data Engineering` `Cloud Technologies`
-
-</td>
-</tr>
-<tr>
-<td width="100%" valign="top">
-
-### 🧩 FullStack AI Engineering Fellow — Dev Weekends
-📍 Lahore, Pakistan &nbsp;·&nbsp; 🗓️ June 2026 – Present
-<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=flat-square" />
-
-Pursuing a fellowship covering full-stack development — JavaScript, React.js, Node.js, databases, data structures, system design, and AI — through guided coursework and hands-on exercises.
-
-`JavaScript` `React.js` `Node.js` `Data Structures` `System Design` `AI`
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,c,html,css,react,vite,tailwind,nodejs,express,fastapi,django,postgres,git,github,docker,aws,azure,linux&theme=dark" />
-
-</div>
-
-<br/>
-
-<table align="center">
-<tr>
-<td><b>Languages</b></td>
-<td>Python · JavaScript · C · SQL</td>
-</tr>
-<tr>
-<td><b>Frontend</b></td>
-<td>React · Vite · Tailwind CSS · HTML5 · CSS3</td>
-</tr>
-<tr>
-<td><b>Backend</b></td>
-<td>Node.js · Express.js · FastAPI · Django · REST APIs · Socket.IO</td>
-</tr>
-<tr>
-<td><b>Databases</b></td>
-<td>PostgreSQL · Schema Design · Normalization · Query Design</td>
-</tr>
-<tr>
-<td><b>Cloud & DevOps</b></td>
-<td>AWS · Azure DevOps Services · Docker · CI/CD Fundamentals</td>
-</tr>
-<tr>
-<td><b>Tools</b></td>
-<td>Git · GitHub · Docker · Linux · VS Code</td>
-</tr>
-<tr>
-<td><b>Core CS</b></td>
-<td>Operating Systems · DBMS · Computer Architecture · RISC-V · Software Design Patterns · Software Quality Assurance</td>
-</tr>
-</table>
-
----
-
-## 🧩 Featured Projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-built-dark.svg">
+  <img alt="things i built" src="assets/h-built-light.svg" width="100%">
+</picture>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🧭 PathFinder
-
-AI-powered university admissions and career counseling platform designed for Pakistani students who need guidance in choosing degrees, universities, and career paths.
-
-**Key Features**
-
-- AI-based program and career recommendations
-- Student-focused counseling flow
-- FastAPI backend architecture
-- PostgreSQL persistence layer
-- Production-style documentation
-
-**Tech Stack**
-
-`FastAPI` `PostgreSQL` `AI/ML` `Python`
-
-<a href="https://github.com/rafayykhan">
-  <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
+<a href="https://spiceandbite.store"><img src="assets/projects/spice-and-bite.jpg" alt="Spice & Bite website" width="100%"></a>
+<br><b>Spice &amp; Bite</b> · <sub>client</sub><br>
+Online menu, deals and WhatsApp ordering for a restaurant in Lahore, with an admin panel for the menu, orders and printed slips.<br>
+<sub>Vite · JavaScript · Supabase</sub> · <a href="https://spiceandbite.store">live ↗</a>
 </td>
 <td width="50%" valign="top">
-
-### 📝 Bloggio
-
-A full-stack blogging platform migrated from server-rendered EJS to a modern React frontend with a separate JSON API backend.
-
-**Key Features**
-
-- React frontend with API-based architecture
-- httpOnly JWT cookie authentication
-- Real-time features using Socket.IO
-- Clean routes, controllers, and models structure
-- PostgreSQL-backed data storage
-
-**Tech Stack**
-
-`Node.js` `Express.js` `PostgreSQL` `React` `Socket.IO`
-
-<a href="https://github.com/rafayykhan">
-  <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
+<a href="https://cookdrivewelfare.com"><img src="assets/projects/cdwa.jpg" alt="Cook Driver Welfare Association website" width="100%"></a>
+<br><b>Cook Driver Welfare Association</b> · <sub>client</sub><br>
+Families request a cook or a driver in under a minute over WhatsApp, with no sign-up. Mobile-first, with automated tests and CI.<br>
+<sub>Supabase · GitHub Actions</sub> · <a href="https://cookdrivewelfare.com">live ↗</a>
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
-
-### 🧠 xv6 RISC-V Page Tables
-
-Operating Systems coursework project focused on implementing and extending virtual memory mechanics inside the xv6 kernel.
-
-**Key Features**
-
-- Multi-level page table handling
-- RISC-V virtual memory concepts
-- Kernel-level C implementation
-- Page table traversal and mapping logic
-
-**Tech Stack**
-
-`C` `RISC-V` `Operating Systems` `xv6`
-
+<a href="https://www.prismovector.com"><img src="assets/projects/prismovector.jpg" alt="PrismoVector website" width="100%"></a>
+<br><b>PrismoVector</b> · <sub>own product</sub><br>
+A Next.js platform with dark and light themes and an AI chat assistant backed by a FastAPI, Qdrant and Ollama agent.<br>
+<sub>Next.js · FastAPI · Qdrant</sub> · <a href="https://www.prismovector.com">live ↗</a>
 </td>
 <td width="50%" valign="top">
-
-### 💊 Medicare
-
-A responsive skincare platform UI inspired by modern e-commerce layouts, focused on clean structure, visual spacing, and responsive design.
-
-**Key Features**
-
-- Single-page frontend interface
-- Responsive product layout
-- Clean visual hierarchy
-- E-commerce inspired user experience
-
-**Tech Stack**
-
-`HTML` `CSS` `JavaScript`
-
+<a href="https://github.com/rafayykhan/nexatel-churn-intelligence"><img src="assets/projects/nexatel.jpg" alt="NexaTel churn dashboard" width="100%"></a>
+<br><b>NexaTel Churn Intelligence</b> · <sub>ML</sub><br>
+Predicts which telecom customers are about to leave and explains why with SHAP. 89.6% recall, 0.845 ROC-AUC, served as a Dockerized FastAPI tool.<br>
+<sub>FastAPI · scikit-learn</sub> · <a href="https://github.com/rafayykhan/nexatel-churn-intelligence">code ↗</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/rafayykhan/flyrank-capstone-widget-platform"><img src="assets/projects/widget-platform.jpg" alt="Lead-capture widget demo" width="100%"></a>
+<br><b>Lead-capture widget platform</b> · <sub>backend</sub><br>
+Paste one script tag; the backend handles validation, rate limiting, spam checks, background emails and webhooks. My FlyRank capstone, 69 tests.<br>
+<sub>Python · PostgreSQL · Redis · Celery</sub> · <a href="https://github.com/rafayykhan/flyrank-capstone-widget-platform">code ↗</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/rafayykhan/novakart"><img src="assets/projects/novakart.jpg" alt="NovaKart storefront" width="100%"></a>
+<br><b>NovaKart</b> · <sub>frontend</sub><br>
+A React storefront built to practise state management: Redux Toolkit for cart, auth and products, and a login-protected checkout.<br>
+<sub>React 19 · Redux Toolkit · Tailwind</sub> · <a href="https://github.com/rafayykhan/novakart">code ↗</a>
 </td>
 </tr>
 </table>
 
----
+More on my portfolio: **[muhammadabdulrafay-sage.vercel.app/projects](https://muhammadabdulrafay-sage.vercel.app/projects)** →
 
-## 📂 More Projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg">
+  <img alt="my stack" src="assets/h-stack-light.svg" width="100%">
+</picture>
 
-<div align="center">
+<table>
+<tr><td><b>Front</b></td><td>React · Next.js · Vite · Tailwind CSS</td></tr>
+<tr><td><b>Back</b></td><td>Node.js · Express · Python · Django · FastAPI</td></tr>
+<tr><td><b>Data</b></td><td>PostgreSQL · MongoDB · Supabase · Redis</td></tr>
+<tr><td><b>Ship</b></td><td>Docker · AWS · GitHub Actions</td></tr>
+<tr><td><b>AI</b></td><td>LangGraph · LangChain · Qdrant · RAG</td></tr>
+</table>
 
-<a href="https://github.com/rafayykhan/Python-Learning">
-  <img src="https://img.shields.io/badge/Python_Learning-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</a>
-<a href="https://github.com/rafayykhan/Disease-Burden-Analytics">
-  <img src="https://img.shields.io/badge/Disease_Burden_Analytics-2C5364?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://github.com/rafayykhan/django-project">
-  <img src="https://img.shields.io/badge/Django_Project-092E20?style=for-the-badge&logo=django&logoColor=white" />
-</a>
-<a href="https://github.com/rafayykhan/Software-Design-Architecture-Mini-Project">
-  <img src="https://img.shields.io/badge/SDA_Mini_Project-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-elsewhere-dark.svg">
+  <img alt="find me" src="assets/h-elsewhere-light.svg" width="100%">
+</picture>
 
-<br/><br/>
+[Portfolio](https://muhammadabdulrafay-sage.vercel.app) · [LinkedIn](https://www.linkedin.com/in/muhammad-abdul-rafayy/) · [Medium](https://rafayykhan.medium.com) · [Upwork](https://www.upwork.com/freelancers/~01fd358d4c55230178) · [Email](mailto:rafaykhan99999@gmail.com)
 
-<a href="https://github.com/rafayykhan?tab=repositories">
-  <img src="https://img.shields.io/badge/View_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+Latest writing: [I Almost Skipped Vanilla JavaScript to Jump Straight Into React. Here's Why I'm Glad I Didn't](https://javascript.plainenglish.io/i-almost-skipped-vanilla-javascript-to-jump-straight-into-react-heres-why-i-m-glad-i-didn-t-d95137f6380c)
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="" src="assets/footer-light.svg" width="100%">
+</picture>
 
----
-
-## 📊 Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rafayykhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafayykhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="49%" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=rafayykhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&dates=8B949E&card_width=800" width="80%" />
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rafayykhan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9" width="95%" />
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-trophies.vercel.app/?username=rafayykhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=12" width="95%" />
-
-</div>
-
----
-
-## 🎓 Education
-
-### Information Technology University, Lahore
-
-**Bachelor of Science in Software Engineering**
-BSSE'24 · Currently in Semester 4
-
-**Relevant Coursework**
-
-`Operating Systems` · `Database Management Systems` · `Software Design & Architecture` · `Computer Organization & Assembly Language` · `RISC-V` · `Statistics`
-
----
-
-## 📜 Certifications
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Programming_for_Everybody-Getting_Started_with_Python-3776AB?style=for-the-badge&logo=coursera&logoColor=white" />
-<img src="https://img.shields.io/badge/Python_Data_Structures-3776AB?style=for-the-badge&logo=coursera&logoColor=white" />
-<img src="https://img.shields.io/badge/What_is_Data_Science%3F-1F6FEB?style=for-the-badge&logo=coursera&logoColor=white" />
-
-</div>
-
----
-
-## 🌱 Currently Exploring
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Distributed_Systems-0D1117?style=for-the-badge&logo=serverless&logoColor=58A6FF" />
-<img src="https://img.shields.io/badge/System_Design-0D1117?style=for-the-badge&logo=diagramsdotnet&logoColor=58A6FF" />
-<img src="https://img.shields.io/badge/LLM_Integration-0D1117?style=for-the-badge&logo=openai&logoColor=58A6FF" />
-<img src="https://img.shields.io/badge/Open_Source-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" />
-<img src="https://img.shields.io/badge/CQRS_%26_Event_Sourcing-0D1117?style=for-the-badge&logo=apachekafka&logoColor=58A6FF" />
-<img src="https://img.shields.io/badge/Cloud_%26_DevOps-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=58A6FF" />
-
-</div>
-
----
-
-## 💡 Developer Mindset
-
-> I like building software that is not just functional, but understandable, maintainable, and useful in the real world.
-
-- Write clean and readable code
-- Design before building
-- Keep improving after the deadline
-- Learn fundamentals deeply
-- Build projects that solve actual problems
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/muhammadabdul-rafay-khan-/">
-  <img src="https://img.shields.io/badge/LinkedIn-Muhammad_Abdul_Rafay_Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:rafaykhan99999@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/rafayykhan">
-  <img src="https://img.shields.io/badge/GitHub-rafayykhan-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### Thanks for visiting my profile.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:39D0D8,50:1F6FEB,100:6E40C9&height=120&section=footer" width="100%" />
-
-</div>
+<!-- Graphics are generated by scripts/build.mjs (node scripts/build.mjs). Fonts: SIL OFL, see fonts/. -->
