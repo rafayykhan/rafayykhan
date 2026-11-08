@@ -1,0 +1,113 @@
+{
+  "username": "rafayykhan",
+  "site": "https://muhammadabdulrafay-sage.vercel.app",
+  "siteLabel": "muhammadabdulrafay-sage.vercel.app",
+  "status": "open to freelance work",
+  "name": "rafay",
+  "tagline": "I build web apps end to end: the interface, the API, the database, and lately the AI agents behind them.",
+  "facts": [
+    { "label": "now", "value": "ai native developer @ afrium" },
+    { "label": "focus", "value": "full stack + ai agents" },
+    { "label": "based", "value": "lahore, pakistan" }
+  ],
+  "stats": [
+    { "label": "contributions", "value": "{contributions}", "note": "in the last year" },
+    { "label": "public repos", "value": "{repos}", "note": "on github" },
+    { "label": "client sites", "value": "2", "note": "live and maintained" },
+    { "label": "certificates", "value": "7", "note": "flyrank, umich, ibm…" }
+  ],
+  "projects": [
+    {
+      "name": "Spice & Bite",
+      "tag": "client",
+      "image": "assets/projects/spice-and-bite.jpg",
+      "live": true,
+      "description": "Online menu, deals and WhatsApp ordering for a restaurant in Lahore, with an admin panel for the menu, orders and printed slips.",
+      "stats": [["type", "Client site"], ["stack", "Vite, Supabase"], ["status", "Live"]],
+      "url": "https://spiceandbite.store",
+      "urlLabel": "spiceandbite.store",
+      "button": "visit"
+    },
+    {
+      "name": "Cook Driver Welfare",
+      "tag": "client",
+      "image": "assets/projects/cdwa.jpg",
+      "live": true,
+      "description": "Families request a cook or a driver in under a minute over WhatsApp, with no sign-up. Mobile-first, with automated tests and CI.",
+      "stats": [["type", "Client site"], ["stack", "Supabase, CI"], ["status", "Live"]],
+      "url": "https://cookdrivewelfare.com",
+      "urlLabel": "cookdrivewelfare.com",
+      "button": "visit"
+    },
+    {
+      "name": "PrismoVector",
+      "tag": "product",
+      "image": "assets/projects/prismovector.jpg",
+      "live": true,
+      "description": "A Next.js platform with dark and light themes and an AI chat assistant backed by a FastAPI, Qdrant and Ollama agent.",
+      "stats": [["type", "Own product"], ["stack", "Next.js, FastAPI"], ["status", "Live"]],
+      "url": "https://www.prismovector.com",
+      "urlLabel": "prismovector.com",
+      "button": "visit"
+    },
+    {
+      "name": "NexaTel Churn",
+      "tag": "ml",
+      "image": "assets/projects/nexatel.jpg",
+      "live": false,
+      "description": "Predicts which telecom customers are about to leave and explains why with SHAP. Served as a Dockerized FastAPI tool.",
+      "stats": [["recall", "89.6%"], ["roc-auc", "0.845"], ["tests", "26"]],
+      "url": "https://github.com/rafayykhan/nexatel-churn-intelligence",
+      "urlLabel": "nexatel-churn-intelligence",
+      "button": "source"
+    },
+    {
+      "name": "Widget platform",
+      "tag": "backend",
+      "image": "assets/projects/widget-platform.jpg",
+      "live": false,
+      "description": "Paste one script tag; the backend handles validation, rate limiting, spam checks, emails and webhooks. My FlyRank capstone.",
+      "stats": [["tests", "69"], ["stack", "Python, Redis"], ["queue", "Celery"]],
+      "url": "https://github.com/rafayykhan/flyrank-capstone-widget-platform",
+      "urlLabel": "flyrank-capstone-widget-platform",
+      "button": "source"
+    },
+    {
+      "name": "NovaKart",
+      "tag": "frontend",
+      "image": "assets/projects/novakart.jpg",
+      "live": false,
+      "description": "A React storefront built to practise state management: Redux Toolkit for cart, auth and products, and a protected checkout.",
+      "stats": [["type", "Frontend"], ["stack", "React 19, RTK"], ["status", "Built"]],
+      "url": "https://github.com/rafayykhan/novakart",
+      "urlLabel": "novakart",
+      "button": "source"
+    }
+  ],
+  "experience": [
+    { "org": "Afrium", "role": "AI Native Developer (part-time, remote)", "when": "Aug 2026 – now", "logo": "assets/logos/afrium.png", "current": true },
+    { "org": "Upwork", "role": "Freelance full stack developer", "when": "Nov 2026 – now", "logo": "assets/logos/upwork.png", "current": true },
+    { "org": "Dev Weekends", "role": "FullStack AI Engineering Fellow", "when": "Jun 2026 – now", "logo": "assets/logos/devweekends.png", "current": true },
+    { "org": "FlyRank AI", "role": "Backend AI Engineer Intern", "when": "Jul – Sep 2026", "logo": "assets/logos/flyrank.png", "current": false },
+    { "org": "Zee Outsourcing Solutions", "role": "Data Engineering Intern", "when": "Jun – Aug 2026", "logo": "assets/logos/zee.png", "current": false },
+    { "org": "ITU Lahore", "role": "BS Software Engineering", "when": "2024 – 2028", "logo": "assets/logos/itu.png", "current": false }
+  ],
+  "writing": {
+    "source": "rafayykhan.medium.com",
+    "posts": [
+      {
+        "title": "I Almost Skipped Vanilla JavaScript to Jump Straight Into React. Here's Why I'm Glad I Didn't",
+        "date": "2026-06-29",
+        "tag": "javascript",
+        "url": "https://javascript.plainenglish.io/i-almost-skipped-vanilla-javascript-to-jump-straight-into-react-heres-why-i-m-glad-i-didn-t-d95137f6380c"
+      }
+    ]
+  },
+  "links": [
+    { "label": "portfolio", "url": "https://muhammadabdulrafay-sage.vercel.app", "primary": true },
+    { "label": "linkedin", "url": "https://www.linkedin.com/in/muhammad-abdul-rafayy/" },
+    { "label": "medium", "url": "https://rafayykhan.medium.com" },
+    { "label": "upwork", "url": "https://www.upwork.com/freelancers/~01fd358d4c55230178" },
+    { "label": "email", "url": "mailto:rafaykhan99999@gmail.com" }
+  ]
+}
