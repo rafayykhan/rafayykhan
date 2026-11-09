@@ -42,7 +42,26 @@ const FONT = {
 };
 const CLASSES =
   ".h{font-family:'Gochi Hand',cursive}.s{font-family:'Instrument Sans',sans-serif}.m{font-family:'Geist Mono',monospace}" +
-  ".blink{animation:blink 1.6s steps(1) infinite}@keyframes blink{50%{opacity:.15}}";
+  ".blink{animation:blink 1.6s steps(1) infinite}@keyframes blink{50%{opacity:.15}}" +
+  // Load-in effects. Each keyframe only describes the starting state, and fill-mode "both"
+  // holds it during any delay, so the resting state is the fully visible design. That's
+  // also what people with reduced motion see (all animations are switched off for them).
+  // Handwriting: the outline draws itself, then fills in.
+  ".wr{stroke-dasharray:var(--len,900);animation:wr 2.4s ease-out both}" +
+  "@keyframes wr{0%{stroke-dashoffset:var(--len,900);fill-opacity:0}70%{stroke-dashoffset:0;fill-opacity:0}100%{stroke-dashoffset:0;fill-opacity:1}}" +
+  // Rise into place.
+  ".up{animation:up .7s ease-out both}@keyframes up{from{opacity:0;transform:translateY(10px)}}" +
+  // Slide in from the left.
+  ".in{animation:in .6s ease-out both}@keyframes in{from{opacity:0;transform:translateX(-16px)}}" +
+  // Typewriter: a clip rect grows one character at a time.
+  ".type{transform-box:fill-box;transform-origin:left center;animation:type var(--d,1.5s) steps(var(--n,40)) both}@keyframes type{from{transform:scaleX(0)}}" +
+  // Odometer: a column of digits rolls up to its own resting position.
+  ".roll{animation:roll 1.6s cubic-bezier(.2,.8,.2,1) both}@keyframes roll{from{transform:translateY(0)}}" +
+  // Little nudge on ↗ arrows, then a long rest.
+  ".nudge{animation:nudge 3.4s ease-in-out infinite}@keyframes nudge{0%,78%,100%{transform:translate(0,0)}86%{transform:translate(2px,-2px)}}" +
+  // A soft light sweeping across screenshots now and then.
+  ".sheen{animation:sheen 7s ease-in-out infinite}@keyframes sheen{0%{transform:translateX(-180px) skewX(-18deg)}24%,100%{transform:translateX(620px) skewX(-18deg)}}";
+const delay = (s) => `animation-delay:${s.toFixed(2)}s`;
 const REDUCED = "@media (prefers-reduced-motion:reduce){*{animation:none!important}}";
 
 const esc = (s) =>
@@ -136,6 +155,30 @@ const fill = (s, data) => String(s).replace(/\{(\w+)\}/g, (_, k) => data[k] ?? "
 
 // ---------- panels ----------
 
+/**
+ * A number that rolls into place like an odometer: every digit is a column of 0–9 that
+ * scrolls up to its value. Anything that isn't a digit (commas, "k", "—") just sits there.
+ */
+function odometer(text, x, baseline, { size, startDelay, color }) {
+  const advance = size * 0.6; // Geist Mono is monospaced at 0.6em
+  const lh = Math.round(size * 1.25);
+  let out = "";
+  [...text].forEach((ch, i) => {
+    const cx = x + i * advance;
+    if (!/[0-9]/.test(ch)) {
+      out += `<text x="${cx}" y="${baseline}" class="m" font-weight="500" font-size="${size}" fill="${color}">${esc(ch)}</text>`;
+      return;
+    }
+    const d = Number(ch);
+    const id = `od${Math.round(cx)}x${Math.round(baseline)}`;
+    const column = Array.from({ length: 10 }, (_, n) => `<text x="${cx}" y="${baseline + n * lh}" class="m" font-weight="500" font-size="${size}" fill="${color}">${n}</text>`).join("");
+    out +=
+      `<clipPath id="${id}"><rect x="${cx - 1}" y="${baseline - size}" width="${advance + 2}" height="${lh}"/></clipPath>` +
+      `<g clip-path="url(#${id})"><g class="roll" style="transform:translateY(-${d * lh}px);${delay(startDelay + i * 0.12)}">${column}</g></g>`;
+  });
+  return out;
+}
+
 function header(data) {
   const W = 860;
   const H = 440;
@@ -159,8 +202,9 @@ function header(data) {
   const facts = config.facts
     .map(
       (f, i) =>
+        `<g class="up" style="${delay(2.2 + i * 0.18)}">` +
         `<text x="28" y="${nameY + 102 + i * 26}" class="m" font-size="11" letter-spacing="1.2" fill="${C.dim}">${esc(f.label.toUpperCase())}</text>` +
-        `<text x="104" y="${nameY + 102 + i * 26}" class="m" font-size="13" fill="${C.fg}">${esc(f.value)}</text>`,
+        `<text x="104" y="${nameY + 102 + i * 26}" class="m" font-size="13" fill="${C.fg}">${esc(f.value)}</text></g>`,
     )
     .join("");
 
@@ -172,16 +216,31 @@ function header(data) {
     .map((s, i) => {
       const x = gx + (i % 2) * gw + 20;
       const y = gy + Math.floor(i / 2) * gh;
+      const start = 0.6 + i * 0.25;
       return (
+        `<g class="up" style="${delay(start - 0.3)}">` +
         `<text x="${x}" y="${y + 32}" class="m" font-size="10.5" letter-spacing="1.2" fill="${C.dim}">${esc(s.label.toUpperCase())}</text>` +
-        `<text x="${x}" y="${y + 66}" class="m" font-weight="500" font-size="26" fill="${C.fg}">${esc(fill(s.value, data))}</text>` +
-        `<text x="${x}" y="${y + 90}" class="s" font-size="13" fill="${C.muted}">${esc(s.note)}</text>`
+        `<text x="${x}" y="${y + 90}" class="s" font-size="13" fill="${C.muted}">${esc(s.note)}</text>` +
+        odometer(fill(s.value, data), x, y + 66, { size: 26, startDelay: start, color: C.fg }) +
+        `</g>`
       );
     })
     .join("");
 
-  const tagline = wrap(config.tagline, 56)
-    .map((l, i) => `<text x="28" y="${nameY + 40 + i * 21}" class="s" font-size="15.5" fill="${C.muted}">${esc(l)}</text>`)
+  // Typed out line by line after the name has written itself, ending on a blinking cursor.
+  const lines = wrap(config.tagline, 56);
+  let typeAt = 1.3;
+  const tagline = lines
+    .map((l, i) => {
+      const y = nameY + 40 + i * 21;
+      const dur = l.length * 0.028;
+      const cursor = i === lines.length - 1 ? `<tspan class="blink" fill="${C.accent}"> ▍</tspan>` : "";
+      const out =
+        `<clipPath id="tl${i}"><rect class="type" x="26" y="${y - 17}" width="540" height="24" style="--n:${l.length};--d:${dur.toFixed(2)}s;${delay(typeAt)}"/></clipPath>` +
+        `<text x="28" y="${y}" class="s" font-size="15.5" fill="${C.muted}" clip-path="url(#tl${i})">${esc(l)}${cursor}</text>`;
+      typeAt += dur;
+      return out;
+    })
     .join("");
 
   const body = `
@@ -202,7 +261,7 @@ function header(data) {
     <g class="db">${layer(crest, PALETTE.slice(3))}</g>
   </g>
   <path d="M0 ${BAND_Y + 0.5}H${W}M0 ${gy + 0.5}H${W}M${gx + 0.5} ${gy}V${H}M${gx + gw + 0.5} ${gy}V${H}M${gx} ${gy + gh + 0.5}H${W}" stroke="${C.line}"/>
-  <text x="26" y="${nameY}" class="h" font-size="68" fill="${C.fg}">${esc(config.name)}</text>
+  <text x="26" y="${nameY}" class="h wr" font-size="68" fill="${C.fg}" stroke="${C.fg}" stroke-width="1.1" style="--len:700">${esc(config.name)}</text>
   ${tagline}
   ${facts}
   ${stats}
@@ -211,7 +270,17 @@ function header(data) {
   return svg(W, H, `${config.name}. ${config.tagline}`, [FONT.hand, FONT.sans, FONT.mono, FONT.monoBold], body);
 }
 
-function projectCard(p) {
+/** Label with a separate ↗ that nudges; the pair is centred on cx. */
+function labelWithArrow(label, cx, y, { size, spacing, color, arrowDelay }) {
+  const width = label.length * (size * 0.6 + spacing);
+  const start = cx - (width + 4 + size * 0.6) / 2;
+  return (
+    `<text x="${(start + width).toFixed(1)}" y="${y}" text-anchor="end" class="m" font-weight="500" font-size="${size}" letter-spacing="${spacing}" fill="${color}">${esc(label)}</text>` +
+    `<text x="${(start + width + 4).toFixed(1)}" y="${y}" class="m nudge" font-weight="500" font-size="${size}" fill="${color}" style="${delay(arrowDelay)}">↗</text>`
+  );
+}
+
+function projectCard(p, index) {
   const W = 430;
   const H = 530;
   const x0 = 6; // gap between neighbouring cards
@@ -231,10 +300,14 @@ function projectCard(p) {
       );
     })
     .join("");
+  const bx = x0 + cw - 12 - 96;
+  const arrow = { size: 11, spacing: 1.2, arrowDelay: 1.5 + index * 0.45 };
   const button =
     p.button === "visit"
-      ? `<rect x="${x0 + cw - 12 - 96}" y="474" width="96" height="32" rx="16" fill="${C.accent}"/><text x="${x0 + cw - 12 - 48}" y="494.5" text-anchor="middle" class="m" font-weight="500" font-size="11" letter-spacing="1.2" fill="#0b0b0c">VISIT ↗</text>`
-      : `<rect x="${x0 + cw - 12 - 96 + 0.5}" y="474.5" width="95" height="31" rx="15.5" fill="#151518" stroke="${C.line}"/><text x="${x0 + cw - 12 - 48}" y="494.5" text-anchor="middle" class="m" font-weight="500" font-size="11" letter-spacing="1.2" fill="${C.fg}">SOURCE ↗</text>`;
+      ? `<rect x="${bx}" y="474" width="96" height="32" rx="16" fill="${C.accent}"/>` +
+        labelWithArrow("VISIT", bx + 48, 494.5, { ...arrow, color: "#0b0b0c" })
+      : `<rect x="${bx + 0.5}" y="474.5" width="95" height="31" rx="15.5" fill="#151518" stroke="${C.line}"/>` +
+        labelWithArrow("SOURCE", bx + 48, 494.5, { ...arrow, color: C.fg });
   const live = p.live
     ? `<rect x="${ix + 10}" y="28" width="62" height="22" rx="11" fill="#08090acc" stroke="${C.line}"/><circle class="blink" cx="${ix + 23}" cy="39" r="3.5" fill="${C.accent}"/><text x="${ix + 32}" y="43" class="m" font-weight="500" font-size="10.5" letter-spacing="1.2" fill="${C.fg}">LIVE</text>`
     : "";
@@ -242,21 +315,26 @@ function projectCard(p) {
 <defs><clipPath id="shot"><rect x="${ix}" y="18" width="${iw}" height="${ih}" rx="10"/></clipPath></defs>
 ${frame(x0, 6, cw, H - 12)}
 <image href="data:image/jpeg;base64,${b64(p.image)}" x="${ix}" y="18" width="${iw}" height="${ih}" preserveAspectRatio="xMidYMin slice" clip-path="url(#shot)"/>
+<g clip-path="url(#shot)"><rect class="sheen" x="${ix}" y="18" width="70" height="${ih}" fill="#ffffff" fill-opacity="0.09" style="${delay(1.2 + index * 1.1)}"/></g>
 <rect x="${ix + 0.5}" y="18.5" width="${iw - 1}" height="${ih - 1}" rx="9.5" fill="none" stroke="${C.line}"/>
 ${live}
+<g class="up" style="${delay(0.15)}">
 <text x="${ix}" y="${ih + 52}" class="s" font-weight="600" font-size="19" fill="${C.fg}">${esc(p.name)}</text>
 <text x="${ix + iw}" y="${ih + 51}" text-anchor="end" class="m" font-size="10.5" letter-spacing="1.2" fill="${C.dim}">${esc(p.tag.toUpperCase())}</text>
-${desc.map((l, i) => `<text x="${ix}" y="${ih + 80 + i * 20}" class="s" font-size="14" fill="${C.muted}">${esc(l)}</text>`).join("")}
+</g>
+<g class="up" style="${delay(0.3)}">${desc.map((l, i) => `<text x="${ix}" y="${ih + 80 + i * 20}" class="s" font-size="14" fill="${C.muted}">${esc(l)}</text>`).join("")}</g>
 <path d="M${ix} 400.5H${ix + iw}" stroke="${C.line}"/>
-${stats}
+<g class="up" style="${delay(0.45)}">${stats}</g>
+<g class="up" style="${delay(0.6)}">
 <text x="${ix}" y="494" class="m" font-size="11.5" fill="${C.muted}">${esc(p.urlLabel)}</text>
-${button}`;
+${button}
+</g>`;
   return svg(W, H, `${p.name}: ${p.description}`, [FONT.sans, FONT.sansBold, FONT.mono, FONT.monoBold], body);
 }
 
 function sectionTitle(title, note, W) {
   return (
-    `<text x="26" y="52" class="h" font-size="32" fill="${C.fg}">${esc(title)}</text>` +
+    `<text x="26" y="52" class="h wr" font-size="32" fill="${C.fg}" stroke="${C.fg}" stroke-width="0.6" style="--len:320">${esc(title)}</text>` +
     `<text x="${W - 26}" y="48" text-anchor="end" class="m" font-size="11.5" fill="${C.muted}">${esc(note)}</text>` +
     `<path d="M${INSET} 74.5H${W - INSET}" stroke="${C.line}"/>`
   );
@@ -270,12 +348,14 @@ function experience() {
     .map((e, i) => {
       const y = 76 + i * ROW;
       return (
+        `<g class="in" style="${delay(0.6 + i * 0.14)}">` +
         `<clipPath id="l${i}"><rect x="26" y="${y + 13}" width="36" height="36" rx="9"/></clipPath>` +
         `<image href="data:image/png;base64,${b64(e.logo)}" x="26" y="${y + 13}" width="36" height="36" clip-path="url(#l${i})"/>` +
         `<text x="78" y="${y + 28}" class="s" font-weight="600" font-size="15" fill="${C.fg}">${esc(e.org)}</text>` +
         `<text x="78" y="${y + 47}" class="s" font-size="13.5" fill="${C.muted}">${esc(e.role)}</text>` +
         (e.current ? `<circle class="blink" cx="${W - 26 - e.when.length * 7.2 - 12}" cy="${y + 31}" r="3" fill="${C.accent}"/>` : "") +
         `<text x="${W - 26}" y="${y + 35}" text-anchor="end" class="m" font-size="12" fill="${e.current ? C.fg : C.muted}">${esc(e.when)}</text>` +
+        `</g>` +
         (i < config.experience.length - 1 ? `<path d="M26 ${y + ROW + 0.5}H${W - 26}" stroke="${C.line}" stroke-dasharray="2 4"/>` : "")
       );
     })
@@ -296,9 +376,11 @@ function writing() {
       const y = 76 + i * ROW;
       const lines = wrap(p.title, 72).slice(0, 2);
       return (
+        `<g class="up" style="${delay(0.8 + i * 0.15)}">` +
         `<text x="26" y="${y + 30}" class="m" font-size="10.5" letter-spacing="1.2" fill="${C.accent}">${esc(p.tag.toUpperCase())}</text>` +
         lines.map((l, j) => `<text x="130" y="${y + 30 + j * 21}" class="s" font-weight="600" font-size="15" fill="${C.fg}">${esc(l)}</text>`).join("") +
-        `<text x="${W - 26}" y="${y + 30}" text-anchor="end" class="m" font-size="12" fill="${C.muted}">${esc(fmt(p.date))}</text>`
+        `<text x="${W - 26}" y="${y + 30}" text-anchor="end" class="m" font-size="12" fill="${C.muted}">${esc(fmt(p.date))}</text>` +
+        `</g>`
       );
     })
     .join("");
@@ -306,13 +388,13 @@ function writing() {
   return svg(W, H, "Writing: " + posts.map((p) => p.title).join("; "), [FONT.hand, FONT.sans, FONT.sansBold, FONT.mono], body);
 }
 
-function linkButton(l) {
+function linkButton(l, index) {
   const W = 172;
   const H = 58;
   const fillColor = l.primary ? C.accent : C.card;
   const text = l.primary ? "#0b0b0c" : C.fg;
   const body = `<rect x="4.5" y="6.5" width="${W - 9}" height="${H - 13}" rx="22.5" fill="${fillColor}" stroke="${l.primary ? C.accent : C.line}"/>
-<text x="${W / 2}" y="${H / 2 + 4.5}" text-anchor="middle" class="m" font-weight="500" font-size="12" letter-spacing="1.4" fill="${text}">${esc(l.label.toUpperCase())} ↗</text>`;
+${labelWithArrow(l.label.toUpperCase(), W / 2, H / 2 + 4.5, { size: 12, spacing: 1.4, color: text, arrowDelay: index * 0.5 })}`;
   return svg(W, H, l.label, [FONT.monoBold], body);
 }
 
@@ -364,10 +446,10 @@ const write = (name, content) => {
 };
 
 write("header.svg", header(data));
-config.projects.forEach((p, i) => write(`project-${i + 1}.svg`, projectCard(p)));
+config.projects.forEach((p, i) => write(`project-${i + 1}.svg`, projectCard(p, i)));
 write("experience.svg", experience());
 write("writing.svg", writing());
-config.links.forEach((l, i) => write(`link-${i + 1}.svg`, linkButton(l)));
+config.links.forEach((l, i) => write(`link-${i + 1}.svg`, linkButton(l, i)));
 write("footer.svg", footer());
 
 // ?v=<hash> makes GitHub's image cache fetch a panel again whenever it changes.
