@@ -54,12 +54,12 @@
       "name": "NexaTel Churn",
       "tag": "ml",
       "image": "assets/projects/nexatel.jpg",
-      "live": false,
+      "live": true,
       "description": "Predicts which telecom customers are about to leave and explains why with SHAP. Served as a Dockerized FastAPI tool.",
       "stats": [["recall", "89.6%"], ["roc-auc", "0.845"], ["tests", "26"]],
-      "url": "https://github.com/rafayykhan/nexatel-churn-intelligence",
-      "urlLabel": "nexatel-churn-intelligence",
-      "button": "source"
+      "url": "https://nexatel-churn-intelligence-jtqh.vercel.app",
+      "urlLabel": "nexatel-churn-intelligence-jtqh.vercel.app",
+      "button": "visit"
     },
     {
       "name": "Widget platform",
